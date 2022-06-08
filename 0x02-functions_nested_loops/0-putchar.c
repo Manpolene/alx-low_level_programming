@@ -1,20 +1,19 @@
-#include "-putchar.h"
-
+#include "main.h"
 /**
- * main -  prints Holberton, followed by a new line
- * Return: Always 0 (Success)
+ * main - entery point
+ *
+ * Return: 0
+ *
  */
 int main(void)
 {
-	_putchar('-');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char Maria[] = "_putchar";
+	int i;
 
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(Maria[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
