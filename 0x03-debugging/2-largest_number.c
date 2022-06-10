@@ -31,5 +31,3 @@ else
 
 return (largest);
 }
-© 2022 GitHub, Inc.
-Terms
