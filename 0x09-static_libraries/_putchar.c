@@ -4,7 +4,7 @@
 /**
  * File: _putchar.c
  *
- * Author: Felix Adeh Essienne
+ * Author: Achigbulam Charles
  *
  * Description - Writes the character c to stdout
  *
