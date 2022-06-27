@@ -1,22 +1,11 @@
-#include <ctype.h>
 #include "main.h"
 
 /**
- * _isdigit - function that checks for a digit
- *
- * @c: function arg for character to be checked
- *
- * Description: A function that checks for a digit
- *
- * Return: 1 if c is uppercase otherwise 0
+ * _isdigit - checks for a digit (0 through 9)
+ * @c: int to be checked
+ * Return: 1 if c is a digit, 0 otherwise
  */
-
 int _isdigit(int c)
 {
-	int x = isdigit(c);
-
-	if (x == 0)
-		return (x);
-	else
-		return (1);
+	return (c >= '0' && c <= '9');
 }

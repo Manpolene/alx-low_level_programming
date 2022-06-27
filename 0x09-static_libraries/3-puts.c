@@ -1,16 +1,19 @@
 #include "main.h"
 
 /**
- * _puts - Prints a string, followed by a new line.
- * @str: input string to print.
+ * _puts - check length of string
+ * @str : string
+ * Return: 0
+ * On error, 0 is returned, and errno is set appropriately.
  */
-
 void _puts(char *str)
 {
-	while (*str != '\0')
+	int counter = 0;
+
+	while (str[counter])
 	{
-		_putchar(*str);
-		str++;
+		_putchar(str[counter]);
+		counter = counter + 1;
 	}
 	_putchar('\n');
 }
